@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - sobre BootStrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style rel="stylesheet">
+        [class ^=col]{
+            border:1px solid #e24084;
+        }
+    </style>
+</head>
+<body class="p-3 bg-dark text-light">
+    <p class="h1">Texto com H1</p>
+    <p class="h2">Texto com H2</p>
+    <p class="h3">Texto com H3</p>
+    <p class="h4">Texto com H4</p>
+    <p class="display-1">Texto com Classe Display</p>
+    <p class="fw-bold">Negrito</p>
+    <p class="fw-bolder">Negrito ampliado</p>
+    <p class="fw-semibold">"Semi" negrito</p>
+    <p class="fw-medium">Negrito medio</p>
+    <p class="fw-normal">Normal</p>
+    <p class="fw-light">Fonte "fina"</p>
+    <p class="fw-lighter">Fonte "mais fina"</p>
+    <p class="fst-italic">Italico</p>
+    <p class="fst-normal">Normal</p>
+    <p class="text-start">Alinhamento à esquerda</p>
+    <p class="text-center">Alinhamento centralizado</p>
+    <p class="text-end">Alinhamento à direita</p>
+    <p class="p.text-center.text-md-end text-lg-start">
+        Texto com responsividade, o alinhamento depende do tamanho da janela
+    </p>
+    <p class="text-lowercase"> TEXTO TODO EM MINUSCULO</p>
+    <p class="text-uppercase"> texto todo em maiusculo</p>
+    <p class="text-capitalize"> primeira letra em maiusculo</p>
+    <p class="fs-1">Fonte usando o tamanho fs-1</p>
+    <p class="fs-2">Fonte usando o tamanho fs-2</p>
+    <p class="fs-3">Fonte usando o tamanho fs-3</p>
+    <p class="fs-4">Fonte usando o tamanho fs-4</p>
+    <p class="fs-5">Fonte usando o tamanho fs-5</p>
+    <p class="fs-6">Fonte usando o tamanho fs-6</p>
+    <p class="lh-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta cumque dolor doloribus. Esse, aspernatur sapiente. Fugit ut nemo, sit enim porro doloribus exercitationem dignissimos sed debitis excepturi nulla? Odit.</p>
+    <p class="lh-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta cumque dolor doloribus. Esse, aspernatur sapiente. Fugit ut nemo, sit enim porro doloribus exercitationem dignissimos sed debitis excepturi nulla? Odit.</p>
+    <p class="lh-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta cumque dolor doloribus. Esse, aspernatur sapiente. Fugit ut nemo, sit enim porro doloribus exercitationem dignissimos sed debitis excepturi nulla? Odit.</p>
+    <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae soluta cumque dolor doloribus. Esse, aspernatur sapiente. Fugit ut nemo, sit enim porro doloribus exercitationem dignissimos sed debitis excepturi nulla? Odit.</p>
+    <div class="border text-wrap" style="width: 6rem;">
+        Esse texto vai se encaixar no elemento
+    </div>
+    <div class="border text-nowrap" style="width: 8rem;">
+        Esse texto vai "ultrapassar" o elemento
+    </div>
+    <div class="row">
+        <div class="col-2 text-truncate">
+            Esse texto é relativamente longo e sera truncado (cortado)        
+        </div>
+    </div>
+    <span class="d-inline-block text-truncate" style="max-width: 150px;">
+        Esse texto é relativamente longo e sera truncado (cortado)        
+    </span>
+    <ul class="list-inline">
+        <li class="list-inline-item">Item #1</li>
+        <li class="list-inline-item">Item #2</li>
+        <li class="list-inline-item">Item #3</li>
+    </ul>
+    <div> Texto com opacidade 100</div>
+    <div class="text-danger text-opacity-75"> Texto com opacidade 75</div>
+    <div class="text-danger text-opacity-50"> Texto com opacidade 50</div>
+    <div class="text-danger text-opacity-25"> Texto com opacidade 25</div>
+
+    <p class="text-primary">Texto na cor azul</p>
+    <p class="text-success">Texto na cor verde</p>
+    <p class="text-danger">Texto na cor vermelha</p>
+    <p class="text-warning">Texto na cor amarela</p>
+
+    <h1 class="text-light bg-danger">Texto de avisio</h1>
+    <h1 class="text-danger bg-warning">Outro texto</h1>
+    <h1 class="bg-success text-primary">Mais um texto colorido</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-warning bg-gradient pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur explicabo voluptate. Quasi magni similique animi quibusdam eius cumque, dicta iste delectus neque distinctio inventore quam? Iusto laudantium modi eum.</div>
+            <div class="col-3 bg-danger bg-gradient px-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur explicabo voluptate. Quasi magni similique animi quibusdam eius cumque, dicta iste delectus neque distinctio inventore quam? Iusto laudantium modi eum.</div>
+            <div class="col-3 bg-primary bg-gradient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur explicabo voluptate. Quasi magni similique animi quibusdam eius cumque, dicta iste delectus neque distinctio inventore quam? Iusto laudantium modi eum.</div>
+            <div class="col-3 bg-success bg-gradient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur explicabo voluptate. Quasi magni similique animi quibusdam eius cumque, dicta iste delectus neque distinctio inventore quam? Iusto laudantium modi eum.</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-dark bg-gradient">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit quis inventore error libero accusantium sed incidunt repudiandae unde est asperiores provident eos possimus modi, deleniti ipsa harum tempora quia.</div>
+            <div class="col-4 bg-light bg-gradient">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit quis inventore error libero accusantium sed incidunt repudiandae unde est asperiores provident eos possimus modi, deleniti ipsa harum tempora quia.</div>
+            <div class="col-4 bg-info bg-gradient">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit quis inventore error libero accusantium sed incidunt repudiandae unde est asperiores provident eos possimus modi, deleniti ipsa harum tempora quia.</div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
